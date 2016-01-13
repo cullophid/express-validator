@@ -1,0 +1,26 @@
+{
+  "name": "express-validator",
+  "version": "1.0.0",
+  "description": "validate express reqruests",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cullophid/express-validator.git"
+  },
+  "author": "oolon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cullophid/express-validator/issues"
+  },
+  "homepage": "https://github.com/cullophid/express-validator#readme",
+  "dependencies": {
+    "jsonschema": "^1.0.3",
+    "ramda": "^0.19.1"
+  },
+  "devDependencies": {
+    "express": "^4.13.3"
+  }
+}

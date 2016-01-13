@@ -1,0 +1,14 @@
+{
+  "id" : "all",
+  "type": "object",
+  "properties": {
+    "query": {
+      "type": "object",
+      "required" : ["prop1", "prop2"],
+      "properties": {
+        "prop1": { "type": "string" },
+        "prop2": { "type": "string" }
+      }
+    }
+  }
+}
